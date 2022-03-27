@@ -18,8 +18,8 @@ h2 {
     color: #436182;
 }
 
-#wrapper {
-    max-width: 75em;
+#wrapper-body {
+    max-width: 65em;
     margin: auto;
     margin-top: 100px;
     margin-bottom: 15px;
@@ -28,6 +28,7 @@ h2 {
     padding: 0px 20px 20px 20px;
     background: #fff;
     padding: 10px;
+    border-radius: 4px;
 }
 
 #photo-header {
@@ -41,6 +42,10 @@ h2 {
     margin: 0 0 10px 0;
 }
 
+#wrapper-column {
+    display: flex;
+}
+
 .avatar {
     width: 200px;
     height: auto;
@@ -49,4 +54,30 @@ h2 {
     padding: 7px;
     background: #334960;
     display: inline-block;
+}
+
+.left {
+    width: 65%;
+    padding: 40px 30px;
+}
+
+.right {
+    width: 35%;
+    padding: 40px 30px;
+}
+
+@media all and (max-width:640px) {
+    #wrapper-column {
+        display: block;
+    }
+
+    .left {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .right {
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
