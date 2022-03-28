@@ -18,6 +18,19 @@ h2 {
     color: #436182;
 }
 
+h3 {
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+h4 {
+    margin: 0 0 5px 0;
+}
+
+h5 {
+    color: #336060;
+}
+
 #wrapper-body {
     max-width: 65em;
     margin: auto;
@@ -58,12 +71,34 @@ h2 {
 
 .left {
     width: 65%;
-    padding: 40px 30px;
+    padding: 40px 20px;
 }
 
 .right {
     width: 35%;
-    padding: 40px 30px;
+    padding: 40px 20px;
+}
+
+.individual-sections {
+    margin: 0 10px 10px 5px;
+}
+
+.work-heading {
+    background: #e7edf2;
+    padding: 7px 10px;
+    border-bottom: 1px solid #4a4d52;
+    border-radius: 2px;
+    margin: 10px 0;
+}
+
+.work-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.work-details ul li {
+    padding: 4px 2px;
 }
 
 @media all and (max-width:640px) {
