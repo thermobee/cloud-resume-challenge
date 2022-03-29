@@ -21,6 +21,8 @@ h2 {
 h3 {
     text-transform: uppercase;
     margin: 0 0 10px 0;
+    color: #336060;
+    padding: 0 0 0 3px;
 }
 
 h4 {
@@ -29,6 +31,10 @@ h4 {
 
 h5 {
     color: #336060;
+}
+
+li {
+    list-style: none;
 }
 
 #wrapper-body {
@@ -87,18 +93,26 @@ h5 {
     background: #e7edf2;
     padding: 7px 10px;
     border-bottom: 1px solid #4a4d52;
-    border-radius: 2px;
+    border-radius: 5px;
     margin: 10px 0;
 }
 
 .work-details {
     display: flex;
     justify-content: space-between;
-    padding: 5px 20px;
+    padding: 5px 10px;
+}
+
+.personal-details {
+    padding: 5px 10px;
 }
 
 .work-details ul li {
     padding: 4px 2px;
+}
+
+.personal-details ul li {
+    padding: 2px 2px;
 }
 
 @media all and (max-width:640px) {
