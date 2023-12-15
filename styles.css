@@ -6,6 +6,11 @@
 body {
     background: #334960;
     font-family: Helvetica, sans-serif;
+    font-smooth: always;
+    font-smooth: 2em;
+    font-size: 1.35em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 h1 {
@@ -35,6 +40,7 @@ h5 {
 
 li {
     list-style: none;
+    margin: 1px;
 }
 
 ion-icon {
