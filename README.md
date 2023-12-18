@@ -8,11 +8,11 @@ The Cloud Resume Challenge is here to introduce techies to cloud technologies an
 
 3. CSS :white_check_mark:
 
-4. Static Website :white_check_mark: http://mywebsite-thermobee.s3-website-us-east-1.amazonaws.com/
+4. Static Website :white_check_mark: - removed the link since the full DNS works
 
-5. HTTPS :white_check_mark: https://d2o9yn8wpzsx09.cloudfront.net/
+5. HTTPS :white_check_mark: removed the link since the full DNS works
 
-6. DNS
+6. DNS :white_check_mark: https://todlazarov.com
 
 7. Javascript
 
