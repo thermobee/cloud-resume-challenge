@@ -2,13 +2,13 @@
 
 The Cloud Resume Challenge is here to introduce techies to cloud technologies and get hands on experience with them. This will be my journey. Below is a list of the steps required which I'll mark complete as I go along. Thank you for looking.
 
-1. Certification - AWS Cloud Practioner - :white_check_mark:
+1. Certification - AWS Cloud Practioner :white_check_mark:
 
-2. HTML - :white_check_mark:
+2. HTML :white_check_mark:
 
-3. CSS - :white_check_mark:
+3. CSS :white_check_mark:
 
-4. Static Website
+4. Static Website :white_check_mark: http://mywebsite-thermobee.s3-website-us-east-1.amazonaws.com/
 
 5. HTTPS
 
