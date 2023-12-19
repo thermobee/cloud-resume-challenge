@@ -14,7 +14,7 @@ The Cloud Resume Challenge is here to introduce techies to cloud technologies an
 
 6. DNS :white_check_mark: https://todlazarov.com
 
-7. Javascript
+7. Javascript :white_check_mark: - Create a website visits counter
 
 8. Database
 
