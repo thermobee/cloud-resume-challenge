@@ -11,4 +11,11 @@ if (visitCount) {
     localStorage.setItem("page_view", 1);
  }
 
+// Currently rendering twice, figure out why it doesnt work without it
+
 counterContainer.innerHTML = visitCount;
+
+number = document.querySelector(".website-counter").textContent;
+stringNr = [...number].reduce((result, digit) =>  result+=`<span class="digit">${digit}</span>`, "");
+
+counterContainer.innerHTML = stringNr;
