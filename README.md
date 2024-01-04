@@ -16,7 +16,7 @@ The Cloud Resume Challenge is here to introduce techies to cloud technologies an
 
 7. Javascript :white_check_mark: - Create a website visits counter
 
-8. Database
+8. Database :white_check_mark: - Create an on-demand DynamoDB table to store the visits counter value globally
 
 9. API
 
