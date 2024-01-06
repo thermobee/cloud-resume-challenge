@@ -20,7 +20,7 @@ The Cloud Resume Challenge is here to introduce techies to cloud technologies an
 
 9. API :white_check_mark: - The API is done. Used API Gateway, CORS cause me some issues until I understood what it does. The Python lambda is also included in the repo now. 
 
-10. Python
+10. Python :white_check_mark:
 
 11. Tests
 
