@@ -18,7 +18,7 @@ The Cloud Resume Challenge is here to introduce techies to cloud technologies an
 
 8. Database :white_check_mark: - Create an on-demand DynamoDB table to store the visits counter value globally
 
-9. API
+9. API :white_check_mark: - The API is done. Used API Gateway, CORS cause me some issues until I understood what it does. The Python lambda is also included in the repo now. 
 
 10. Python
 
