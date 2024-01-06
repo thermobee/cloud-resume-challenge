@@ -167,14 +167,24 @@
 
         <div class="counter-footer">
             <p>Website visits</p>
-            <div class="website-counter""></div>
+            <span id="visitor_counter" />
         </div>
 
     </div>
 
     <!-- Second section of the website - blog posts about what I learned from each of the Cloud Resume Challenge steps.  -->
 
-    <script src="app.js"></script>
+    <script>
+        fetch('https://fhn6lbd943.execute-api.us-east-1.amazonaws.com/V1/lambda', { 
+            method: 'GET'
+            })
+            .then(function(response) { return response.json(); })
+            .then(function(json) {
+                visit = JSON.parse(json.body).Count;
+                document.getElementById('visitor_counter').innerText = visit;
+        });
+    </script>
+
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 

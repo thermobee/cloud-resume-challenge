@@ -114,23 +114,6 @@ ion-icon {
     margin: 30px 0 15px 0;
 }
 
-.website-counter {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    margin: 10px 0;
-}
-
-.digit {
-    background-color: #334960;
-    font-size: 35px;
-    color: rgb(255, 255, 255);
-    border-radius: 1.5px;
-    padding: 4px 4px 0 4px;
-    margin: 0 1px;
-}
-
 .work-heading {
     background: #e7edf2;
     padding: 7px 10px;
