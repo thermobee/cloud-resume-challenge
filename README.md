@@ -22,7 +22,7 @@ The Cloud Resume Challenge is here to introduce techies to cloud technologies an
 
 10. Python :white_check_mark:
 
-11. Tests
+11. Tests :white_check_mark: - Had to learn about tests and TDD. Given the simple nature of the lambda function, I created a test to check that the value in the DB is an integer above 0.
 
 12. Infrascture as Code
 
